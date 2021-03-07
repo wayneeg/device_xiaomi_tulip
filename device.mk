@@ -677,3 +677,7 @@ PRODUCT_PACKAGES += \
   init.parallax.sh \
   init.blur.rc \
   init.blur.sh
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
