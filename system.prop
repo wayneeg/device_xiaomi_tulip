@@ -1,3 +1,6 @@
+# Wave Maintainer 
+ro.wave.maintainer_name= Waynee
+
 vendor.bluetooth.soc=cherokee
 persist.vendor.bt.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac 
 
@@ -49,4 +52,3 @@ persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
-
