@@ -330,6 +330,16 @@ PRODUCT_PACKAGES += \
     
 endif
 
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8998/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8998/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8998/media
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/msm8998
+
 # Ion
 PRODUCT_PACKAGES += \
     libion
