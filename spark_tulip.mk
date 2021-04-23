@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common superior stuff
-$(call inherit-product, vendor/derp/config/common.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -32,13 +32,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := derp_tulip
+PRODUCT_NAME := spark_tulip
 PRODUCT_MODEL := Redmi Note 6 Pro
 IS_PHONE := true
 
-# DerpFest stuffs
-DERP_BUILDTYPE := Official
+# spark stuffs
 TARGET_USES_BLUR := true
+WITH_GAPPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
