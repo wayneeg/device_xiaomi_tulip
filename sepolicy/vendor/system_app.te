@@ -74,9 +74,6 @@ allow system_app sysfs_mgain:file { open read getattr write };
 
 # zram
 r_dir_file(system_app sysfs_zram)
-allow system_app cpuboost_prop:property_service set;
-get_prop(system_app, cpuboost_prop);
-set_prop(system_app, cpuboost_prop);
 
 # Allow theme_prop to be read and set by Settings
 get_prop(system_app, theme_prop)
