@@ -330,6 +330,12 @@ PRODUCT_PACKAGES += \
     
 endif
 
+# HARDWARE
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := msm8998
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8998
+
 # HALS
 SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8998/audio
 SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8998/display
@@ -338,7 +344,7 @@ SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8998/media
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/msm8998
+    hardware/qcom-caf/msm8998 \
 
 # Ion
 PRODUCT_PACKAGES += \
