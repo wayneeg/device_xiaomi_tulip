@@ -35,6 +35,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product-if-exists, vendor/prebuilts/config/apex.mk)
 endif
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # IPA
 USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 USE_DEVICE_SPECIFIC_IPACFG_MGR := true
