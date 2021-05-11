@@ -333,6 +333,13 @@ PRODUCT_PACKAGES += \
     
 endif
 
+# HARDWARE
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := msm8998
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8998
+
+
 # HALS
 SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8998/audio
 SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8998/display
