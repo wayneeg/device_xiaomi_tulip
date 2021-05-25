@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_tulip.mk
+    $(LOCAL_DIR)/awaken_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-   derp_tulip-user \
-   derp_tulip-userdebug \
-   derp_tulip-eng
+   awaken_tulip-user \
+   awaken_tulip-userdebug \
+   awaken_tulip-eng

@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common superior stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
 
 # Inherit from tulip device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -32,13 +32,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := derp_tulip
+PRODUCT_NAME := awaken_tulip
 PRODUCT_MODEL := Redmi Note 6 Pro
 IS_PHONE := true
 
-# DerpFest stuffs
-DERP_BUILDTYPE := Official
+# awaken stuffs
 TARGET_USES_BLUR := true
+TARGET_USES_BLUR := true
+USE_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -52,4 +53,3 @@ BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/relea
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
-
