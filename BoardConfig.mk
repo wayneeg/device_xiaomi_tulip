@@ -182,10 +182,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/tulip
 
 # Proton Clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := proton
-TARGET_KERNEL_CLANG_PROTON := true
-KERNEL_SUPPORTS_LLVM_TOOLS := true
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
+KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/aarch64/arm64-gcc/bin
 
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
