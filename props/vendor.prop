@@ -134,6 +134,7 @@ ro.vendor.qti.va_aosp.support=1
 
 # Graphics
 debug.cpurend.vsync=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
 
