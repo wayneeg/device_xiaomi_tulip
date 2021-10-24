@@ -16,6 +16,8 @@ telephony.lteOnCdmaDevice=1
 # SkiaGL
 debug.hwui.use_buffer_age=false
 debug.sf.recomputecrop=0
+vendor.display.disable_rotator_downscale=1
+vendor.display.disable_scaler=0
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
