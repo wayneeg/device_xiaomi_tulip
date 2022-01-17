@@ -181,3 +181,6 @@ ro.soc.model=SDM660
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# Watchdog
+ro.hw_timeout_multiplier=3
