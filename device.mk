@@ -26,10 +26,10 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
-	hardware/google/interfaces \
+    $(DEVICE_PATH) \
+    hardware/google/interfaces \
     hardware/google/pixel
-
+	
 # Permissions
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
