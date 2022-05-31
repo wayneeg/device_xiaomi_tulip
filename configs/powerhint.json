@@ -144,6 +144,14 @@
       ],
       "Type": "Property"
     },
+	    {
+      "Name": "KernelBatterySaver",
+      "Path": "/sys/module/battery_saver/parameters/enabled",
+      "Values": [
+        "Y",
+        "N"
+      ],
+      "ResetOnInit": true
     {
       "Name": "PowerHALRenderingState",
       "Path": "vendor.powerhal.rendering",
@@ -345,6 +353,12 @@
       "Duration": 0,
       "Value": "647000000"
     },
+	{
+      "PowerHint": "LOW_POWER",
+      "Node": "KernelBatterySaver",
+      "Duration": 0,
+      "Value": "Y"
+    }
     {
       "PowerHint": "THERMAL_fps-therm-monitor_LIGHT",
       "Node": "Dex2oatThreads",
