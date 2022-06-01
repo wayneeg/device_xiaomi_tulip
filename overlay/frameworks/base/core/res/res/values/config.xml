@@ -278,6 +278,9 @@
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
     <item name="config_screenBrightnessDimFloat" format="float" type="dimen">0.05</item>
+	
+		<!-- Enable doze alwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
