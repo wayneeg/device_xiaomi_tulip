@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tulip.mk
+    $(LOCAL_DIR)/xdroid_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_tulip-user \
-    aosp_tulip-userdebug \
-    aosp_tulip-eng
+    xdroid_tulip-user \
+    xdroid_tulip-userdebug \
+    xdroid_tulip-eng
