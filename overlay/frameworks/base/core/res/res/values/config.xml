@@ -194,6 +194,10 @@
 
     <!-- Screen brightness when dozing. -->
     <item name="config_screenBrightnessDozeFloat" format="float" type="dimen">0.03</item>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
 
     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
          in hardware. -->
