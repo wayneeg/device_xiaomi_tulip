@@ -185,10 +185,6 @@
     <!-- Screen brightness when dozing. -->
     <item name="config_screenBrightnessDozeFloat" format="float" type="dimen">0.03</item>
 
-    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
-         in hardware. -->
-    <bool name="config_setColorTransformAccelerated">true</bool>
-
     <!-- Operating volatage for bluetooth controller. 0 by default -->
     <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3300</integer>
 
