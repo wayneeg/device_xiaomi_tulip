@@ -201,7 +201,9 @@ PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
     qcom.fmradio \
-    qcom.fmradio.xml
+    qcom.fmradio.xml \
+    vendor.qti.hardware.fm@1.0:64 \
+    vendor.qti.hardware.fm@1.0.vendor:64
 
 # fwk-detect
 PRODUCT_PACKAGES += \
