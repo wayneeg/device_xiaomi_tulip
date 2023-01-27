@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_tulip.mk
+    $(LOCAL_DIR)/bootleg_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_tulip-user \
-    derp_tulip-userdebug \
-    derp_tulip-eng
+    bootleg_tulip-user \
+    bootleg_tulip-userdebug \
+    bootleg_tulip-eng
